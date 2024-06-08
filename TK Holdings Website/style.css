@@ -1,0 +1,262 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 1900px;
+	height: 1000px;
+	background-image:url(Technology.jpg);
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	background-position: center;
+	position:relative;
+}
+
+.navbar{
+	width: 85%;
+	margin:auto;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	position:absolute;
+	top: 15px;
+	left: 5px
+}
+.logo{
+	width: 125px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 12px;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+}
+/*.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 1344px;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -530px;
+}
+*/
+.content{
+	width: 100%;
+	position:absolute;
+	top:50%;
+	transform: translateY(-50);
+	text-align: center;
+	color: #fff;
+}
+
+.content h1{
+	font-size: 40px;
+	margin-top: -10px;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position:relative;
+	overflow:hidden;
+}
+
+span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+	transition:0.5s;
+	
+}
+button:hover span{
+	width: 100%
+}
+button:hover{
+	border:none;
+}
+
+.Accessories{
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.Asc{
+	margin-top:50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	flex-basis: 32%;
+	position:relative;
+	overflow:hidden;
+	right:-15px;
+}
+.Asc img{
+	width: 40%;
+	
+}
+p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align:center;
+	
+}
+.charger{
+
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.char{
+	margin-top:50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	flex-basis: 32%;
+	position:relative;
+	overflow:hidden;
+	right: -150px;
+}
+.char img{
+	width: 40%;
+}
+p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align:center;
+}
+.company{
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.com{
+	margin-top:50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	flex-basis: 32%;
+	position:relative;
+	overflow:hidden;
+	right:-50px
+}
+.com img{
+	width:40%;
+}
+p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align:center;
+}
+.ceo{
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.tk{
+	margin-top:50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	flex-basis: 32%;
+	position:relative;
+	overflow:hidden;
+	right:-250px;
+}
+p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align:center;
+}
+
+.footer{
+	width:100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.sub-banner{
+	height:50vh;
+	width:100%;
+	background-image:url(charger.jpg);
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+	
+}
+.sb-banner{
+	height:50vh;
+	width:100%;
+	background-image:url(Gradient.png);
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+}
+.sab-banner{
+	height:50vh;
+	width:100%;
+	background-image:url(company.jpg);
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+}
+.sceob-banner{
+	height:50vh;
+	width:100%;
+	background-image:url(cc.jpg);
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+}
+
